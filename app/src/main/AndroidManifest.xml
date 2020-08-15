@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.healthmate">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="HealthMate"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".dietActivity"
+            android:label="@string/title_activity_diet"
+            android:theme="@style/AppTheme2"></activity>
+        <activity android:name=".videoTipsActivity" />
+        <activity android:name=".addMedicineActivity" />
+        <activity android:name=".medicineInformationActivity" />
+        <activity android:name=".diseaseDetailedActivity" />
+        <activity android:name=".generalTipsActivity" />
+        <activity android:name=".yogaActivity" />
+        <activity android:name=".dietTipsActivity" />
+        <activity android:name=".healthCareActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

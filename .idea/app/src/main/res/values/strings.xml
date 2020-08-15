@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">HealthMate</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="bhekasana">Lie on your belly and reach back to grab your feet as in bow pose.Now through inhalation, lift up your chest and squeeze the shoulders towards each other. Fold your feet towards the hip region and let your hands hold the toes.Hold this pose for 5 breaths and then gradually release.</string>
+    <string name="dhanurasana">This is also known as Bow pose.All you have to do here is to lie down on the floor with your belly touching the ground. Keep your hands besides your chest.Now take a deep breath and lift your legs and thighs up.At the same time, you have to try to catch your legs with your hands.Remain in this position for 30 seconds and release.</string>
+    <string name="shalabhasana">Lie on your belly with your hands resting below your thighs while forehead and chin are resting on the floor.Now try to raise your left leg up to 10 inches.Keep your leg straight.Do not bend your knees.After that, try doing the same with your right leg too.At the final stage, do this with both your legs</string>
+
+</resources>

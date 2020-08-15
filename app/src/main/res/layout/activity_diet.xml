@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dietActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+     <com.google.android.material.tabs.TabLayout
+         android:id="@+id/tab"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+         <com.google.android.material.tabs.TabItem
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="DIET 1"
+          android:id="@+id/diet1Id"
+
+
+         />
+
+         <com.google.android.material.tabs.TabItem
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="DIET 2"
+             android:id="@+id/diet2Id"
+             />
+
+         <com.google.android.material.tabs.TabItem
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="DIET 3"
+             android:id="@+id/diet3Id"
+             />
+         <com.google.android.material.tabs.TabItem
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="DIET 4"
+             android:id="@+id/diet4Id"
+             />
+
+     </com.google.android.material.tabs.TabLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+</RelativeLayout>
